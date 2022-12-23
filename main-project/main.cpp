@@ -25,7 +25,9 @@ void timeOutput(Time time) {
 int main()
 {
     setlocale(LC_ALL, "RU");
-    cout << "12veb var9 Paniznik Arina\n";
+    cout << "Лабораторная работа №9. GIT\n";
+    cout << "Вариант №9. Телефонный разговор\n";
+    cout << "Автор: Арина Панизник\n\n";
     phone_talk* talks[MAX_FILE_ROWS_COUNT];
     int size;
     try
